@@ -1,0 +1,11 @@
+NAME=RestartGuard
+
+$(NAME).exe: $(NAME).c
+	$(CC) $(CFLAGS) $? $(LFLAGS)
+	$(STRIP)
+
+zip: $(NAME).exe
+	zip $(NAME).zip $(NAME).exe CONFIG.BAT INSTALL.BAT UNINSTALL.BAT
+
+clean:
+	$(RM) $(NAME).exe $(NAME).obj $(NAME).zip
