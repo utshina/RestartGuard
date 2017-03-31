@@ -14,3 +14,7 @@ double-click INSTALL.BAT
 ## How to uninstall
 
 double-click UNIUNSTALL.BAT
+
+## How does it work
+
+It simply shift the active hours periodically.
