@@ -1,6 +1,6 @@
 #include <windows.h>
 
-void WinMainCRT()
+void main()
 {
     HANDLE mutex;
 

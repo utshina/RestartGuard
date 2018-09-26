@@ -9,7 +9,7 @@ $(error MinGW gcc not found)
 endif
 
 CFLAGS=-O6
-LFLAGS=-mwindows -nostdlib -o $@ -lkernel32 -ladvapi32
+LFLAGS=-mwindows -o $@ -lkernel32 -ladvapi32
 STRIP=strip $@
 RM=rm -f
 
